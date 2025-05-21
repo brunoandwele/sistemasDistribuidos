@@ -1,0 +1,23 @@
+# Return codes for communication
+
+# General codes
+SUCCESS = 0
+ERROR_GENERAL = -1
+PROCESSING = -2
+
+# User-related codes
+ERROR_USER_NOT_FOUND = -10
+ERROR_USERNAME_TAKEN = -11
+ERROR_INVALID_USERNAME = -12
+
+# Parameter and input errors
+ERROR_INVALID_PARAMETER = -20
+ERROR_MISSING_PARAMETER = -21
+
+# Messaging codes
+ERROR_MESSAGE_NOT_DELIVERED = -30
+ERROR_MESSAGE_FORMAT_INVALID = -31
+
+# Follow/Unfollow codes
+ERROR_ALREADY_FOLLOWING = -40
+ERROR_NOT_FOLLOWING = -41

@@ -1,0 +1,166 @@
+2025-05-21 00:16:38,443 - INFO - [LOG] Log individual configurado para servidor_2_log.txt
+2025-05-21 00:16:38,443 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:38,443 - INFO - [SYNC] Relógio local: 1747797398.44
+2025-05-21 00:16:38,443 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.65s. Novo valor: 1747797397.79
+2025-05-21 00:16:40,448 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:42,453 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:43,448 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.43s. Novo valor: 1747797397.36
+2025-05-21 00:16:44,456 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:46,462 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:48,447 - INFO - [SYNC] Relógio local: 1747797397.36
+2025-05-21 00:16:48,447 - INFO - [Atualização] Servidores conectados: ['1', '2']
+2025-05-21 00:16:48,449 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.58s. Novo valor: 1747797397.94
+2025-05-21 00:16:48,468 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:50,450 - INFO - [SYNC] Checagem de líder: líder atual é 2
+2025-05-21 00:16:50,450 - INFO - [SYNC] Sou o líder (2). Enviando sincronização de relógio (1747797410.45)
+2025-05-21 00:16:50,451 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797397.94 para 1747797410.45
+2025-05-21 00:16:50,451 - INFO - [SYNC] Resposta do proxy para sync_clock: {'status': 'clock_sync_broadcasted', 'timestamp': 1747797410.450541}
+2025-05-21 00:16:50,473 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:52,477 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:53,455 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.46s. Novo valor: 1747797409.99
+2025-05-21 00:16:54,480 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:56,485 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:16:58,452 - INFO - [SYNC] Relógio local: 1747797409.99
+2025-05-21 00:16:58,454 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:16:58,458 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.66s. Novo valor: 1747797409.33
+2025-05-21 00:16:58,490 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:00,492 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:02,456 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:17:02,497 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:03,460 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.76s. Novo valor: 1747797410.08
+2025-05-21 00:17:04,499 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:05,619 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797410.08 para 1747797425.62
+2025-05-21 00:17:06,499 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:07,860 - INFO - Mensagem recebida: {'action': 'add_user', 'username': 'ana'}
+2025-05-21 00:17:07,860 - INFO - Processando ação: add_user
+2025-05-21 00:17:07,860 - INFO - Chamando handle_sign_up
+2025-05-21 00:17:07,860 - INFO - Entrando em handle_sign_up
+2025-05-21 00:17:07,860 - INFO - Enviando requisição ao banco: {'action': 'add_user', 'username': 'ana'}
+2025-05-21 00:17:07,860 - INFO - Resposta do banco recebida: {'ret': 0, 'id': 2, 'topic': 'notificacao_user_2'}
+2025-05-21 00:17:07,860 - INFO - Usuário 'ana' cadastrado com ID 2, tópico: notificacao_user_2
+2025-05-21 00:17:07,860 - INFO - Saindo de handle_sign_up com resposta: {"ret": 0, "id": 2, "topic": "notificacao_user_2"}
+2025-05-21 00:17:07,860 - INFO - Resposta enviada: {"ret": 0, "id": 2, "topic": "notificacao_user_2"}
+2025-05-21 00:17:08,455 - INFO - [SYNC] Relógio local: 1747797425.62
+2025-05-21 00:17:08,459 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:17:08,461 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.11s. Novo valor: 1747797425.51
+2025-05-21 00:17:08,500 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:10,501 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:12,503 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:13,465 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.67s. Novo valor: 1747797426.17
+2025-05-21 00:17:14,462 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:17:14,506 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:16,509 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:17,622 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797426.17 para 1747797437.62
+2025-05-21 00:17:18,456 - INFO - [SYNC] Relógio local: 1747797437.62
+2025-05-21 00:17:18,462 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:17:18,468 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.16s. Novo valor: 1747797437.78
+2025-05-21 00:17:18,513 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:20,518 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:22,521 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:23,469 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.65s. Novo valor: 1747797437.13
+2025-05-21 00:17:24,527 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:26,463 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:17:26,532 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:28,457 - INFO - [SYNC] Relógio local: 1747797437.13
+2025-05-21 00:17:28,463 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:17:28,473 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.69s. Novo valor: 1747797436.44
+2025-05-21 00:17:28,537 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:29,625 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797436.44 para 1747797449.63
+2025-05-21 00:17:30,357 - INFO - Mensagem recebida: {'action': 'add_follower', 'id': 2, 'to_follow': 'bruno'}
+2025-05-21 00:17:30,357 - INFO - Processando ação: add_follower
+2025-05-21 00:17:30,357 - INFO - Chamando handle_follow
+2025-05-21 00:17:30,357 - INFO - Entrando em handle_follow
+2025-05-21 00:17:30,357 - INFO - Enviando requisição ao banco: {'action': 'add_follower', 'id': 2, 'to_follow': 'bruno'}
+2025-05-21 00:17:30,358 - INFO - Resposta do banco recebida: {'ret': 0}
+2025-05-21 00:17:30,358 - INFO - Usuário ID 2 começou a seguir 'bruno'
+2025-05-21 00:17:30,358 - INFO - Saindo de handle_follow com resposta: {"ret": 0}
+2025-05-21 00:17:30,358 - INFO - Resposta enviada: {"ret": 0}
+2025-05-21 00:17:30,539 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:32,540 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:33,478 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.79s. Novo valor: 1747797450.41
+2025-05-21 00:17:34,541 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:36,543 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:38,462 - INFO - [SYNC] Relógio local: 1747797450.41
+2025-05-21 00:17:38,466 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:17:38,467 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:17:38,482 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.99s. Novo valor: 1747797451.40
+2025-05-21 00:17:38,543 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:40,548 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:41,627 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797451.40 para 1747797461.63
+2025-05-21 00:17:42,549 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:43,484 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.99s. Novo valor: 1747797462.62
+2025-05-21 00:17:44,554 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:46,557 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:48,464 - INFO - [SYNC] Relógio local: 1747797462.62
+2025-05-21 00:17:48,470 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:17:48,488 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.04s. Novo valor: 1747797462.66
+2025-05-21 00:17:48,559 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:50,470 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:17:50,564 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:52,567 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:53,493 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.28s. Novo valor: 1747797462.94
+2025-05-21 00:17:53,630 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797462.94 para 1747797473.63
+2025-05-21 00:17:54,568 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:55,771 - INFO - Mensagem recebida: {'action': 'get_private_messages', 'remetente': 'ana', 'destinatario': 'bruno'}
+2025-05-21 00:17:55,771 - INFO - Processando ação: get_private_messages
+2025-05-21 00:17:55,771 - INFO - Enviando requisição ao banco: {'action': 'get_private_messages', 'remetente': 'ana', 'destinatario': 'bruno'}
+2025-05-21 00:17:55,772 - INFO - Resposta do banco recebida: {'ret': 0, 'mensagens': []}
+2025-05-21 00:17:55,772 - INFO - Resposta enviada: {"ret": 0, "mensagens": []}
+2025-05-21 00:17:56,571 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:17:58,469 - INFO - [SYNC] Relógio local: 1747797473.63
+2025-05-21 00:17:58,474 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:17:58,496 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.69s. Novo valor: 1747797474.32
+2025-05-21 00:17:58,575 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:00,578 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:02,471 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:18:02,583 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:03,499 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.27s. Novo valor: 1747797474.59
+2025-05-21 00:18:04,585 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:05,634 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797474.59 para 1747797485.63
+2025-05-21 00:18:06,586 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:08,472 - INFO - [SYNC] Relógio local: 1747797485.63
+2025-05-21 00:18:08,476 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:18:08,499 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.89s. Novo valor: 1747797484.74
+2025-05-21 00:18:08,590 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:10,592 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:12,598 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:13,502 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.43s. Novo valor: 1747797484.31
+2025-05-21 00:18:13,540 - INFO - Mensagem recebida: {'action': 'get_private_messages', 'remetente': 'bruno', 'destinatario': 'ana'}
+2025-05-21 00:18:13,540 - INFO - Processando ação: get_private_messages
+2025-05-21 00:18:13,540 - INFO - Enviando requisição ao banco: {'action': 'get_private_messages', 'remetente': 'bruno', 'destinatario': 'ana'}
+2025-05-21 00:18:13,540 - INFO - Resposta do banco recebida: {'ret': 0, 'mensagens': [['quejo?', 1747797479, 'ana']]}
+2025-05-21 00:18:13,540 - INFO - Resposta enviada: {"ret": 0, "mensagens": [["quejo?", 1747797479, "ana"]]}
+2025-05-21 00:18:14,475 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:18:14,601 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:16,604 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:17,638 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797484.31 para 1747797497.64
+2025-05-21 00:18:18,475 - INFO - [SYNC] Relógio local: 1747797497.64
+2025-05-21 00:18:18,477 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:18:18,505 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.71s. Novo valor: 1747797498.35
+2025-05-21 00:18:18,608 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:20,613 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:22,613 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:23,296 - INFO - Mensagem recebida: {'action': 'get_private_messages', 'remetente': 'ana', 'destinatario': 'bruno'}
+2025-05-21 00:18:23,296 - INFO - Processando ação: get_private_messages
+2025-05-21 00:18:23,296 - INFO - Enviando requisição ao banco: {'action': 'get_private_messages', 'remetente': 'ana', 'destinatario': 'bruno'}
+2025-05-21 00:18:23,297 - INFO - Resposta do banco recebida: {'ret': 0, 'mensagens': [['quejo?', 1747797479, 'ana'], ['aaaa', 1747797490, 'bruno']]}
+2025-05-21 00:18:23,297 - INFO - Resposta enviada: {"ret": 0, "mensagens": [["quejo?", 1747797479, "ana"], ["aaaa", 1747797490, "bruno"]]}
+2025-05-21 00:18:23,507 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.08s. Novo valor: 1747797498.27
+2025-05-21 00:18:24,618 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:26,477 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:18:26,622 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:28,477 - INFO - [SYNC] Relógio local: 1747797498.27
+2025-05-21 00:18:28,480 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:18:28,508 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.43s. Novo valor: 1747797498.70
+2025-05-21 00:18:28,623 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:29,641 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797498.70 para 1747797509.64
+2025-05-21 00:18:30,628 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:32,628 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:33,511 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.65s. Novo valor: 1747797508.99
+2025-05-21 00:18:34,633 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:36,637 - INFO - [HEARTBEAT] Enviado heartbeat do server 2
+2025-05-21 00:18:38,478 - INFO - [SYNC] Relógio local: 1747797508.99
+2025-05-21 00:18:38,479 - INFO - [SYNC] Checagem de líder: líder atual é 3
+2025-05-21 00:18:38,482 - INFO - [Atualização] Servidores conectados: ['1', '2', '3']
+2025-05-21 00:18:38,514 - INFO - [DRIFT] Drift aplicado ao relógio local: -0.48s. Novo valor: 1747797508.50
+2025-05-21 00:18:38,641 - INFO - [HEARTBEAT] Enviado heartbeat do server 2

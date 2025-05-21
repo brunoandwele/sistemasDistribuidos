@@ -1,0 +1,34 @@
+2025-05-21 00:18:45,230 - INFO - [LOG] Log individual configurado para servidor_4_log.txt
+2025-05-21 00:18:45,230 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:18:45,230 - INFO - [SYNC] Relógio local: 1747797525.23
+2025-05-21 00:18:45,230 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.68s. Novo valor: 1747797525.91
+2025-05-21 00:18:47,234 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:18:49,238 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:18:50,235 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.74s. Novo valor: 1747797526.65
+2025-05-21 00:18:51,243 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:18:53,249 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:18:55,242 - INFO - [SYNC] Relógio local: 1747797526.65
+2025-05-21 00:18:55,242 - INFO - [Atualização] Servidores conectados: ['1', '2', '3', '4']
+2025-05-21 00:18:55,249 - INFO - [DRIFT] Drift aplicado ao relógio local: +1.00s. Novo valor: 1747797527.64
+2025-05-21 00:18:55,254 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:18:57,246 - INFO - [SYNC] Checagem de líder: líder atual é 4
+2025-05-21 00:18:57,246 - INFO - [SYNC] Sou o líder (4). Enviando sincronização de relógio (1747797537.25)
+2025-05-21 00:18:57,246 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797527.64 para 1747797537.25
+2025-05-21 00:18:57,246 - INFO - [SYNC] Resposta do proxy para sync_clock: {'status': 'clock_sync_broadcasted', 'timestamp': 1747797537.246133}
+2025-05-21 00:18:57,260 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:18:59,268 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:19:00,260 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.65s. Novo valor: 1747797537.89
+2025-05-21 00:19:01,274 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:19:03,280 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:19:05,254 - INFO - [Atualização] Servidores conectados: ['1', '2', '3', '4']
+2025-05-21 00:19:05,255 - INFO - [SYNC] Relógio local: 1747797537.89
+2025-05-21 00:19:05,269 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.19s. Novo valor: 1747797538.08
+2025-05-21 00:19:05,286 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:19:07,291 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:19:09,258 - INFO - [SYNC] Checagem de líder: líder atual é 4
+2025-05-21 00:19:09,258 - INFO - [SYNC] Sou o líder (4). Enviando sincronização de relógio (1747797549.26)
+2025-05-21 00:19:09,258 - INFO - [SYNC] Resposta do proxy para sync_clock: {'status': 'clock_sync_broadcasted', 'timestamp': 1747797549.2581398}
+2025-05-21 00:19:09,258 - INFO - [SYNC] Sincronização recebida. Ajustando relógio local de 1747797538.08 para 1747797549.26
+2025-05-21 00:19:09,296 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
+2025-05-21 00:19:10,277 - INFO - [DRIFT] Drift aplicado ao relógio local: +0.92s. Novo valor: 1747797550.18
+2025-05-21 00:19:11,298 - INFO - [HEARTBEAT] Enviado heartbeat do server 4
