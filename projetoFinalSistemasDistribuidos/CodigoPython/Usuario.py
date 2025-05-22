@@ -6,7 +6,7 @@ from queue import Queue
 
 import zmq
 
-import ReturnCodes
+from CodigoPython import ReturnCodes
 
 
 class User:
@@ -201,42 +201,7 @@ class User:
             print("Erro ao tentar seguir o usuário.")
             logging.error(f"Erro ao seguir usuário '{usernameInput}' por '{self.username}'")
 
-    def display_conversation(self, sender, recipient):
-        """
-        Solicita e exibe toda a conversa privada entre o usuário atual e outro usuário.
-        """
-        requestPayload = {
-            "action": "get_private_messages",
-            "remetente": sender,
-            "destinatario": recipient
-        }
 
-        serializedMessage = json.dumps(requestPayload).encode('utf-8')
-        self.reqSocket.send(serializedMessage)
-
-        serializedMessages = self.reqSocket.recv()
-        response = json.loads(serializedMessages.decode('utf-8'))
-        messages = response["mensagens"]
-
-        print("\n📱 Conversa entre você e", recipient)
-        print("-" * 50)
-
-        for item in messages:
-            if len(item) == 3:
-                message, ts, msgSender = item
-            else:
-                continue
-
-            try:
-                timeFormatted = datetime.fromtimestamp(int(ts)).strftime("%H:%M")
-            except (ValueError, TypeError):
-                timeFormatted = "??:??"
-
-            # Alinhamento diferente para mensagens enviadas e recebidas
-            if msgSender == self.username:
-                print(f"{'':>25} {msgSender}: {message}  🕒{timeFormatted}")
-            else:
-                print(f"{msgSender}: {message}  🕒{timeFormatted}")
 
     def send_private_message(self):
         """

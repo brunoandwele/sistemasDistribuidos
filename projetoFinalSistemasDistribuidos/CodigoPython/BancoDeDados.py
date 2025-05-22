@@ -10,7 +10,7 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("banco.log"),
+        logging.FileHandler("../banco.log"),
         logging.StreamHandler()  # Agora os logs aparecem no terminal em tempo real!
     ]
 )
@@ -181,6 +181,4 @@ def handle_request():
 
 # Inicia a thread principal do banco de dados em modo daemon (encerra junto com o processo principal)
 threading.Thread(target=handle_request, daemon=True).start()
-
-print("ServidorBanco rodando na porta 7000...")
 input("Pressione Enter para sair.\n")
